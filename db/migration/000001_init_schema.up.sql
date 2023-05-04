@@ -17,7 +17,6 @@ CREATE TABLE "transfer" (
   "from_account_id" uuid NOT NULL,
   "to_account_id" uuid NOT NULL,
   "amount" bigint NOT NULL,
-  "user_id" integer NOT NULL,
   "created_at" timestamptz NOT NULL DEFAULT (now()),
   "note" varchar
 );
